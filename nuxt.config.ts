@@ -2,7 +2,7 @@ export default defineNuxtConfig({
   ssr: true,
   nitro: {
     storage: {
-      data: { driver: 'upstash' }
+      data: { driver: 'memory' }
     }
   }
 })
